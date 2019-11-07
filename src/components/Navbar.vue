@@ -76,10 +76,11 @@ export default {
 <style lang="css">
 .navbar {
   width: 100%;
-  padding-left: 1%;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 ul {
-  font-size: 27px;
+  font-size: 23px;
 }
 li {
   padding-left: 10px;

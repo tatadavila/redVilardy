@@ -14,6 +14,7 @@
   text-align: center;
   color: #2c3e50;
   padding-top: 10px;
+  background-color: rgba(48, 79, 128, 0.5);
 }
 * {
   box-sizing: border-box;
