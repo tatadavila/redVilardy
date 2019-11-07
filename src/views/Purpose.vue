@@ -1,6 +1,5 @@
 <template>
-  <div class="home">
-    <Start></Start>
+  <div class="purpose">
   </div>
 </template>
 
@@ -9,7 +8,7 @@
 import Start from "@/components/Start.vue";
 
 export default {
-  name: "home",
+  name: "purpose",
   components: {
     Start
   }
