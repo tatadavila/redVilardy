@@ -1,16 +1,17 @@
 <template>
   <div class="purpose">
+    <PurposeComp></PurposeComp>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Start from "@/components/Start.vue";
+import PurposeComp from "@/components/PurposeComp.vue";
 
 export default {
   name: "purpose",
   components: {
-    Start
+    PurposeComp
   }
 };
 </script>

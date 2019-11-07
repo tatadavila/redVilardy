@@ -1,6 +1,6 @@
 <template>
   <div class="start">
-    <div class="container">
+    <div id="startContainer" class="container">
       <div
         class="row justify-content-xl-center justify-content-md-left justif-content-sm-center"
       >
@@ -42,14 +42,22 @@ export default {
 <style lang="css">
 .start {
   height: 77vh;
-  font-family: 'Arvo', serif;
-  /* background-color: pink; */
+  background-size:cover;
 }
+#startContainer {
+  background-image: url("../assets/img/home_background.jpeg");
+  height: 100%;
+}
+/* background: url("./assets/img/home_background.jpeg") no-repeat center center
+    fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
 #welc {
   position: absolute;
   font-weight: 700;
   font-size: 77px;
-  color: azure;
+  color: #304F80;
 }
 img {
   padding-top: 27%;

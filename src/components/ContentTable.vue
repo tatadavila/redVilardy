@@ -1,6 +1,6 @@
 <template>
   <div class="contentTable">
-    <div class="container">
+    <div id="contContainer" class="container">
       <div id="containerList1" class="row justify-content-md-center">
         <div class="col-xl-6 col-8">
           <ol id="list" type="I">
@@ -13,6 +13,7 @@
         <div class="col-xl-6 col-8">
           <div id="containerImg1">
             <img
+              class="img-thumbnail"
               src="../assets/img/content_PMI.png"
               id="imgPmi"
               alt="EvalProyInvPMI"
@@ -45,7 +46,6 @@
             <li>Ubicación en el tiempo y su duración</li>
           </ol>
         </div>
-        <div class="row justify-content-md-center"></div>
       </div>
     </div>
   </div>
@@ -60,8 +60,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="css">
 .contentTable {
-  height: 137vh;
-  background-color: rgba(16, 88, 204, 0.7);
+  height: 117vh;
+}
+#contContainer {
+  height: 100%;
+  background-color: rgba(4, 217, 217, 0.5)
 }
 .row {
   margin-right: 7px;
@@ -75,7 +78,7 @@ export default {
 }
 #containerImg1 {
   margin-right: 7%;
-  margin-top: -117px;
+  margin-top: 7px;
 
 }
 #containerImg2 {

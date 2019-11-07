@@ -76,6 +76,7 @@ export default {
 <style lang="css">
 .navbar {
   width: 100%;
+  padding-left: 1%;
 }
 ul {
   font-size: 27px;

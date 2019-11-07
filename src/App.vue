@@ -15,15 +15,15 @@
   color: #2c3e50;
   padding-top: 10px;
 }
+* {
+  box-sizing: border-box;
+}
+.container {
+  font-family: 'Arvo', serif;
+  height: 80%;
+}
 #title {
   font-weight: bolder;
   font-size: 45px;
-}
-.home {
-  background: url("./assets/img/home_background.jpeg") no-repeat center center
-    fixed;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 </style>

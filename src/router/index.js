@@ -20,7 +20,8 @@ const routes = [
   },
   {
     path: "/proposito",
-    name: "proposito"
+    name: "proposito",
+    component: () => import("../views/Purpose.vue")
   },
   {
     path: "/desarrollo",

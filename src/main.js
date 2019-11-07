@@ -11,6 +11,7 @@ Vue.config.productionTip = false;
 Vue.component("Navbar", require("./components/Navbar.vue").default);
 Vue.component("Start", require("./components/Start.vue").default);
 Vue.component("ContentTable", require("./components/ContentTable.vue").default);
+Vue.component("PurposeComp", require("./components/PurposeComp.vue").default);
 
 new Vue({
   router,
