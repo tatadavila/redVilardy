@@ -60,7 +60,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="css">
 .contentTable {
-  height: 77vh;
+  height: 137vh;
+  background-color: rgba(16, 88, 204, 0.7);
 }
 .row {
   margin-right: 7px;
@@ -74,7 +75,7 @@ export default {
 }
 #containerImg1 {
   margin-right: 7%;
-  margin-top: -77px;
+  margin-top: -117px;
 
 }
 #containerImg2 {
@@ -85,6 +86,7 @@ export default {
 }
 #containerCol {
   font-size: 167%;
+  padding-top: 7%;
 }
 .center {
   text-align: center;
