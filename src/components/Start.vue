@@ -2,7 +2,7 @@
   <div class="start">
     <div class="container">
       <div
-        class="row justify-content-xl-left justify-content-md-left justif-content-sm-center"
+        class="row justify-content-xl-center justify-content-md-left justif-content-sm-center"
       >
         <div class="col-xl-6 col-4">
           <h2 id="welc">BIENVENIDOS</h2>
@@ -16,9 +16,9 @@
             id="evaluate"
           />
         </div>
-        <div class="col-xl-6 col-8">
+        <div id="containerText" class="col-xl-6 col-8">
           <div id="text">
-            <p align="justify">
+            <p id="paragraph" align="justify">
               Este recurso fue creado para que los estudiantes tengan una mayor
               interpretación de la Evaluación de un Proyecto de Inversión, donde
               se identificaran aspectos y conceptos como: Oportunidad de
@@ -42,23 +42,30 @@ export default {
 <style lang="css">
 .start {
   height: 77vh;
+  font-family: 'Arvo', serif;
   /* background-color: pink; */
 }
 #welc {
   position: absolute;
-  left: 24%;
-  padding-top: 2%;
-  font-weight: 400;
-  font-size: 47px;
+  font-weight: 700;
+  font-size: 77px;
+  color: azure;
 }
 img {
-  padding-top: 17%;
+  padding-top: 27%;
 }
+
 #text {
   position: absolute;
+  top: 27%;
   right: 77px;
   width: 457px;
   height: 200px;
   font-size: 27px;
+  font-weight: bold;
+  color: aliceblue;
+}
+#paragraph{
+  background-color: rgba(48, 79, 128, 0.4)
 }
 </style>

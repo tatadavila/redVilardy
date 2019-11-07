@@ -19,4 +19,11 @@
   font-weight: bolder;
   font-size: 45px;
 }
+.home {
+  background: url("./assets/img/home_background.jpeg") no-repeat center center
+    fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 </style>
