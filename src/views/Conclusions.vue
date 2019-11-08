@@ -1,17 +1,17 @@
 <template>
   <div class="conclusions">
-    <Topic></Topic>
+    <ConcluComp></ConcluComp>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import  from "@/components/Topic.vue";
+import ConcluComp from "@/components/ConcluComp.vue";
 
 export default {
   name: "conclusions",
   components: {
-    Topic
+    ConcluComp
   }
 };
 </script>
