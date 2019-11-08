@@ -12,7 +12,7 @@ const routes = [
   },
   {
     path: "/tablacontenido",
-    name: "tablacontenido",
+    name: "content",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -20,16 +20,18 @@ const routes = [
   },
   {
     path: "/proposito",
-    name: "proposito",
+    name: "purpose",
     component: () => import("../views/Purpose.vue")
   },
   {
     path: "/desarrollo",
-    name: "desarrollo"
+    name: "develop",
+    component: () => import("../views/Develop.vue")
   },
   {
     path: "/conclusiones",
-    name: "conclusiones"
+    name: "conclusions",
+    component: () => import("../views/Conclusions.vue")
   },
   {
     path: "/referentes",

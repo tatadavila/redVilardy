@@ -33,15 +33,13 @@
             >
           </li>
           <li class="nav-item">
-            <router-link to="/desarrollo" class="nav-link" href="#"
+            <router-link to="/desarrollo" class="nav-link"
               >Desarrollo del Tema</router-link
             >
           </li>
           <li class="nav-item dropdown">
             <a
-              to="/mas"
               class="nav-link dropdown-toggle"
-              href="#"
               id="navbarDropdownMenuLink"
               data-toggle="dropdown"
               aria-haspopup="true"
