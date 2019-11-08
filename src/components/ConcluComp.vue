@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "concluComp",
   props: {
     msg: String
   }
@@ -17,12 +17,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="css">
-.concluComp{
+.concluComp {
   height: 80hv;
   background-color: pink;
 }
 #concluContainer {
   height: 100%;
-  background-color: rgba(16, 88, 204, 0.3)
+  background-color: rgba(16, 88, 204, 0.3);
 }
 </style>
