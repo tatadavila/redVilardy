@@ -56,6 +56,9 @@ figure img {
   margin: -12% 0;
   padding-top: 0%;
 }
+#imgPurpose {
+  margin-top: -17%;
+}
 #purposeText1{
   right: 77px;
   width: 457px;

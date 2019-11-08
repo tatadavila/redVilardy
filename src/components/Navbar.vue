@@ -1,6 +1,9 @@
 <template>
   <div class="navbar">
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <nav
+      id="navContainer"
+      class="navbar sticky-top navbar-expand-lg navbar-dark"
+    >
       <button
         class="navbar-toggler"
         type="button"
@@ -78,6 +81,9 @@ export default {
   width: 100%;
   padding-left: 70px;
   padding-right: 70px;
+}
+#navContainer {
+  background-color: rgba(46, 51, 58, 0.76);
 }
 ul {
   font-size: 23px;

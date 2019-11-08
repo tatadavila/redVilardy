@@ -43,21 +43,17 @@ export default {
 .start {
   height: 77vh;
   background-size:cover;
+  font-family: 'Black Han Sans', sans-serif;
 }
 #startContainer {
   background-image: url("../assets/img/home_background.jpeg");
   height: 100%;
 }
-/* background: url("./assets/img/home_background.jpeg") no-repeat center center
-    fixed;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
 #welc {
   position: absolute;
   font-weight: 700;
   font-size: 77px;
-  color: #304F80;
+  color: rgb(52, 138, 191);
 }
 img {
   padding-top: 27%;

@@ -60,18 +60,19 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="css">
 .contentTable {
-  height: 117vh;
+  height: 120vh;
 }
 #contContainer {
   height: 100%;
-  background-color: rgba(4, 217, 217, 0.5)
+  background-color: rgba(16, 88, 204, 0.3)
 }
 .row {
   margin-right: 7px;
 }
 #list {
+  margin-top: 3%;
   padding-left: 17%;
-  font-size: 157%;
+  font-size: 177%;
 }
 #imgPmi {
   width: 107%;
