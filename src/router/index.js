@@ -35,11 +35,13 @@ const routes = [
   },
   {
     path: "/referentes",
-    name: "referentes"
+    name: "bibliography",
+    component: () => import("../views/Bibliography.vue")
   },
   {
     path: "/creditos",
-    name: "creditos"
+    name: "credits",
+    component: () => import("../views/Credits.vue")
   }
 ];
 

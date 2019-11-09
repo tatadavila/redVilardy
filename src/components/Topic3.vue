@@ -1,6 +1,13 @@
 <template>
-  <div class="topiComp2">
-    <div id="topiContainer2" class="container">
+  <div class="topiComp3">
+    <div id="topiContainer3" class="container">
+      <img
+        id="imgTopc3"
+        src="../assets/img/topicDevelop_img2.png"
+        alt="desarrollo del tema"
+        width="77%"
+      />
+      <br />
       <div class="iframe-container">
         <iframe
           width="560"
@@ -11,31 +18,39 @@
           allowfullscreen
         ></iframe>
       </div>
+      <img
+        id="imgTopic4"
+        src="../assets/img/topicDevelop_img3.png"
+        alt="desarrollo del tema"
+        width="77%"
+      />
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Topic2"
+  name: "Topic3"
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="css">
-.topiComp2 {
-  margin-top: 0.7%;
-  height: 99vh;
+.topiComp3 {
+  height: 100%;
   /* background-color: rgb(84, 199, 88); */
 }
-#topiContainer2 {
+#topiContainer3 {
   height: 100%;
-  /* background-color: rgba(165, 11, 8, 0.3); */
+  /* background-color: yellowgreen ; */
+}
+#imgTopc3 {
+  padding-top: 27px;;
 }
 .iframe-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%;
+  padding-bottom: 57.25%;
   height: 0;
 }
 .iframe-container iframe {
@@ -44,5 +59,12 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
+}
+#imgTopic4 {
+  padding-top: 47px;
+}
+#topicObs{
+  font-size: 27px;
+  font-weight: 700;
 }
 </style>

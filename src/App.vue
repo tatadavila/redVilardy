@@ -22,6 +22,7 @@
   color: #05203b;
   padding-top: 10px;
   background-color: rgba(57, 117, 212, 0.5);
+  max-height: 100%;
 }
 * {
   box-sizing: border-box;
