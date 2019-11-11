@@ -37,6 +37,11 @@
               >Desarrollo del Tema</router-link
             >
           </li>
+          <li class="nav-item">
+            <router-link to="/conclusiones" class="nav-link"
+                >Conclusiones</router-link
+              >
+          </li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -47,9 +52,6 @@
               >Mas..</a
             >
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <router-link to="/conclusiones" class="dropdown-item"
-                >Conclusiones</router-link
-              >
               <router-link to="/referentes" class="dropdown-item"
                 >Referentes Bibliográficos</router-link
               >
@@ -77,13 +79,14 @@ export default {
 <style scoped>
 .navbar {
   width: 100%;
-  padding-left: 47px;
-  padding-right: 47px;
 }
 #navContainer {
   background-color: rgb(14, 48, 97);
+  margin-left: 4.3%;
+  margin-right: 4.3%;
 }
 ul {
+  /* background-color: blueviolet; */
   font-size: 23px;
 }
 li {

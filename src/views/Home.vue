@@ -40,13 +40,15 @@ export default {
 </script>
 <style scoped>
 .home {
-  height: 100%;
+  height: calc(100% - 22%);
   width: 100%;
   background-size: cover;
   font-family: "Black Han Sans", sans-serif;
+  /* background-color: rgba(48, 122, 33, 0.4); */
 }
-#startContainer {
+.home .container {
   background-image: url("../assets/img/home_background.jpeg");
+  width: 100%;
   height: 100%;
 }
 #welc {
@@ -56,12 +58,6 @@ export default {
 }
 #text {
   float: left;
-  margin-top: 17%;
-  top: 27%;
-  right: 77px;
-  width: 457px;
-  height: 200px;
-
   font-weight: bold;
   color: aliceblue;
 }
