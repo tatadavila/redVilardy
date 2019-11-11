@@ -22,7 +22,7 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style scoped>
 .Container-Conclu {
   padding: 7%;
   padding-top: 0%;

@@ -61,7 +61,7 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style scoped>
 .Container-Bib {
   padding: 7%;
   padding-top: 0%;

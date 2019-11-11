@@ -37,14 +37,14 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style scoped>
 .purpose {
   height: 127vh;
   /* background-color: pink; */
 }
 #purpContainer {
   height: 100%;
-  background-color: #A8C9B8;
+  background-color: #a8c9b8;
 }
 figure {
   width: 100%; /*container-width*/
@@ -60,7 +60,7 @@ figure img {
 #imgPurpose {
   margin-top: -17%;
 }
-#purposeText1{
+#purposeText1 {
   right: 77px;
   width: 457px;
   height: 200px;
@@ -73,4 +73,3 @@ figure img {
   font-weight: bold;
 }
 </style>
-

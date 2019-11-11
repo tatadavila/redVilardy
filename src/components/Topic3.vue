@@ -35,7 +35,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="css">
+<style scoped>
 .topiComp3 {
   height: 100%;
   /* background-color: rgb(84, 199, 88); */

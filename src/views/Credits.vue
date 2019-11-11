@@ -55,7 +55,7 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style scoped>
 #containerImgBib {
   /* background-color: deepskyblue; */
   padding: 0 37% 7%;

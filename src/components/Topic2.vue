@@ -22,7 +22,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="css">
+<style scoped>
 .topiComp2 {
   margin-top: 0.7%;
   height: 99vh;

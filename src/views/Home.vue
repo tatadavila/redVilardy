@@ -38,28 +38,25 @@ export default {
   name: "home"
 };
 </script>
-<style lang="css">
-.start {
-  height: 77vh;
-  background-size:cover;
-  font-family: 'Black Han Sans', sans-serif;
+<style scoped>
+.home {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  font-family: "Black Han Sans", sans-serif;
 }
 #startContainer {
   background-image: url("../assets/img/home_background.jpeg");
   height: 100%;
 }
 #welc {
-  position: absolute;
   font-weight: 700;
   font-size: 77px;
-  color: rgb(52, 138, 191);
+  color: rgb(14, 103, 158);
 }
-img {
-  padding-top: 27%;
-}
-
 #text {
-  position: absolute;
+  float: left;
+  margin-top: 17%;
   top: 27%;
   right: 77px;
   width: 457px;
@@ -68,7 +65,7 @@ img {
   font-weight: bold;
   color: aliceblue;
 }
-#paragraph{
+#paragraph {
   background-color: rgba(48, 79, 128, 0.4);
   font-size: 27px;
 }
