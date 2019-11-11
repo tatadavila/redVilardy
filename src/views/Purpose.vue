@@ -1,13 +1,11 @@
 <template>
   <div class="purpose">
     <div id="purpContainer" class="container">
-      <header>
-        <figure>
-          <img src="../assets/img/purpose.png" id="imgPurpose" />
-        </figure>
-      </header>
-      <div class="row justify-content-md-center">
-        <div id="containerImg2" class="col-xl-6 col-8">
+      <figure>
+        <img src="../assets/img/purpose.png" id="imgPurpose" />
+      </figure>
+      <div class="row justify-content-md-left">
+        <div id="containerTxt" class="col-xl-6 col-8">
           <p id="purposeText1" align="justify">
             El propósito del tema es: cómo desarrollar ordenada y
             metodológicamente alternativas de inversión en el contexto de los
@@ -39,7 +37,7 @@ export default {
 
 <style scoped>
 .purpose {
-  height: 127vh;
+  height: 100vh;
   /* background-color: pink; */
 }
 #purpContainer {
@@ -58,18 +56,23 @@ figure img {
   padding-top: 0%;
 }
 #imgPurpose {
-  margin-top: -17%;
+  margin-top: -21%;
+}
+#containerTxt {
+  /* background-color: chartreuse; */
+  margin-top: -27vh;
+  padding-bottom: 137px;
 }
 #purposeText1 {
-  right: 77px;
   width: 457px;
   height: 200px;
   font-size: 27px;
   font-weight: 400;
-  margin: 0% 10%;
+  margin-left: 10%;
 }
 #purposeText2 {
-  margin: -10% 7%;
+  margin: 10% 7%;
   font-weight: bold;
+  font-size: 127%;
 }
 </style>
