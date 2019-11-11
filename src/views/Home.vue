@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div id="startContainer" class="container">
+    <div class="container">
       <div
         class="row justify-content-xl-center justify-content-md-left justif-content-sm-center"
       >
@@ -21,9 +21,13 @@
             <p id="paragraph" align="justify">
               Este recurso fue creado para que los estudiantes tengan una mayor
               interpretación de la Evaluación de un Proyecto de Inversión, donde
-              se identificaran aspectos y conceptos como: Oportunidad de
-              Inversión y el Estudio del Mercado, Estudio Técnico, Estudio
-              Económico y Evaluación Económica Financiera.
+              se identificaran aspectos y conceptos como:
+              <ul align="center" style="list-style-type:none">
+                <li>Estudio Técnico</li>
+                <li>Estudio
+              Económico</li>
+                <li>Evaluación Económica Financiera</li>
+                </ul>
             </p>
           </div>
         </div>
@@ -40,16 +44,16 @@ export default {
 </script>
 <style scoped>
 .home {
-  height: calc(100% - 22%);
-  width: 100%;
-  background-size: cover;
   font-family: "Black Han Sans", sans-serif;
-  /* background-color: rgba(48, 122, 33, 0.4); */
+  background-color: rgba(48, 122, 33, 0.4);
+  height: 77vh;
 }
 .home .container {
-  background-image: url("../assets/img/home_background.jpeg");
-  width: 100%;
   height: 100%;
+  background-image: url("../assets/img/home_background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #welc {
   font-weight: 700;
@@ -59,10 +63,10 @@ export default {
 #text {
   float: left;
   font-weight: bold;
-  color: aliceblue;
+  color: rgb(34, 65, 116)
 }
 #paragraph {
-  background-color: rgba(48, 79, 128, 0.4);
+  background-color: rgba(255, 255, 255, 0.277);
   font-size: 27px;
 }
 </style>
