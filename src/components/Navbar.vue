@@ -74,14 +74,14 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="css">
+<style scoped>
 .navbar {
   width: 100%;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 47px;
+  padding-right: 47px;
 }
 #navContainer {
-  background-color: rgba(46, 51, 58, 0.76);
+  background-color: rgb(14, 48, 97);
 }
 ul {
   font-size: 23px;

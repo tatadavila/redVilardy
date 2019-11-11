@@ -21,8 +21,8 @@
   text-align: center;
   color: #05203b;
   padding-top: 10px;
-  background-color: rgba(57, 117, 212, 0.5);
-  max-height: 100%;
+  background-color: rgba(57, 117, 212, 0.9);
+  height: 100vh;
 }
 * {
   box-sizing: border-box;
@@ -33,6 +33,7 @@
 #title {
   font-weight: bolder;
   font-size: 45px;
+  color: #05203b;
 }
 .page {
   position: fixed;
