@@ -1,5 +1,5 @@
 <template>
-  <div class="topiComp">
+  <div class="topic">
     <div id="topiContainer" class="container">
       <header>
         <div class="container">
@@ -9,7 +9,7 @@
               inversión
             </h1>
           </div>
-          <p align="justify">
+          <p align="justify" id="topicText">
             A continuación, se hace referencia a marcos teóricos que permiten
             mediante la investigación generar aportes individuales y colectivos
             que acrecienten las bases conceptuales para la toma de decisiones.
@@ -44,27 +44,10 @@ export default {
   height: 100%;
   /* background-color: rgba(16, 191, 204, 0.3) */
 }
-#obsTitle {
-  font-weight: 700;
-  font-size: 170%
+#topiTitle {
+  font-weight: 500;
 }
-#obsContent {
-  font-weight: 600;
-}
-/*
-#imgPurpose {
-  margin-top: -17%;
-}
-#purposeText1 {
-  right: 77px;
-  width: 457px;
-  height: 200px;
+#topicText {
   font-size: 27px;
-  font-weight: 400;
-  margin: 0% 10%;
 }
-#purposeText2 {
-  margin: -10% 7%;
-  font-weight: bold;
-} */
 </style>

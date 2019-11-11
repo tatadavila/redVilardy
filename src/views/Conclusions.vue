@@ -1,8 +1,15 @@
 <template>
   <div class="conclusions">
     <div class="Container-Conclu">
-      <header><img id="imgConclu" src="../assets/img/conclusions_img.png" width="100%" height="700vh"/></header>
-      
+      <header>
+        <img
+          id="imgConclu"
+          src="../assets/img/conclusions_img.png"
+          width="100%"
+          height="700vh"
+        />
+      </header>
+
       <p align="justify">
         El estudiante reconocerá y evaluará Económica y Financieramente
         proyectos de inversión, a partir de: La formulación y evaluación del
@@ -31,5 +38,9 @@ export default {
   /* background-color: coral; */
   font-size: 177%;
   height: 100%;
+}
+#imgConclu{
+  margin-top: 25%;
+  height: 47vh;
 }
 </style>

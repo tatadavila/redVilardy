@@ -39,8 +39,8 @@
           </li>
           <li class="nav-item">
             <router-link to="/conclusiones" class="nav-link"
-                >Conclusiones</router-link
-              >
+              >Conclusiones</router-link
+            >
           </li>
           <li class="nav-item dropdown">
             <a
